@@ -1,0 +1,10 @@
+/Users/mike/prime/c-sharp-intro/bin/Debug/netcoreapp2.0/c-sharp-intro.deps.json
+/Users/mike/prime/c-sharp-intro/bin/Debug/netcoreapp2.0/c-sharp-intro.runtimeconfig.json
+/Users/mike/prime/c-sharp-intro/bin/Debug/netcoreapp2.0/c-sharp-intro.runtimeconfig.dev.json
+/Users/mike/prime/c-sharp-intro/bin/Debug/netcoreapp2.0/c-sharp-intro.dll
+/Users/mike/prime/c-sharp-intro/bin/Debug/netcoreapp2.0/c-sharp-intro.pdb
+/Users/mike/prime/c-sharp-intro/obj/Debug/netcoreapp2.0/c-sharp-intro.csproj.CoreCompileInputs.cache
+/Users/mike/prime/c-sharp-intro/obj/Debug/netcoreapp2.0/c-sharp-intro.AssemblyInfoInputs.cache
+/Users/mike/prime/c-sharp-intro/obj/Debug/netcoreapp2.0/c-sharp-intro.AssemblyInfo.cs
+/Users/mike/prime/c-sharp-intro/obj/Debug/netcoreapp2.0/c-sharp-intro.dll
+/Users/mike/prime/c-sharp-intro/obj/Debug/netcoreapp2.0/c-sharp-intro.pdb
