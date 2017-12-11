@@ -3,7 +3,7 @@ Introduction to C# programming
 
 ## Resources: 
 - Microsoft documentation: https://docs.microsoft.com/en-us/dotnet/csharp/
-- Getting started with Visual Studio Code and C#: https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
+- Getting started with Visual Studio Code and C#:
 - 1.5 hr Youtube tutorial: https://www.youtube.com/watch?v=gfkTfcpWqAY
 
 ## Action Plan:
