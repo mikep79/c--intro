@@ -128,17 +128,57 @@ namespace list_quickstart
             //     Console.WriteLine("nope. :/");
             // }
 
-            // Now that you've seen the if statement and the looping constructs in the C# language, see if you can write C# code to find the sum of all integers 1 through 20 that are divisible by 3.
-            int i = 0;
-            int sum = 0;
-            do {
-                if (i % 3 == 0 ){
-                    sum += i;
-                }
-                i++;
-            } while (i < 21);
-            Console.WriteLine($"Sum is {sum}");
+            // // Now that you've seen the if statement and the looping constructs in the C# language, see if you can write C# code to find the sum of all integers 1 through 20 that are divisible by 3.
+            // int i = 0;
+            // int sum = 0;
+            // do {
+            //     if (i % 3 == 0 ){
+            //         sum += i;
+            //     }
+            //     i++;
+            // } while (i < 21);
+            // Console.WriteLine($"Sum is {sum}");
 
+            // lists of names, sorting
+            // var names = new List<string> {"Mike", "Junior", "Ellie"};
+            // Console.WriteLine(names.Count);
+
+            // var index = names.IndexOf("Junior");
+            // if (index != -1){
+            //     Console.WriteLine($"The name {names[index]} is at index {index}.");
+            // }
+            // var notFound = names.IndexOf("Not Found");
+            // Console.WriteLine($"When an item not found, IndexOf returns {notFound}.");
+            
+            // names.Sort();
+            // foreach (var name in names){
+            //     Console.WriteLine(name);
+            // }
+
+            // var fibonacciNumbers = new List<int> {1, 1};
+            // var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+            // var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+            // fibonacciNumbers.Add(previous + previous2);
+            // foreach(var numb in fibonacciNumbers){
+            //     Console.WriteLine(numb);
+            // }
+
+            // Try and write the code to generate the first 20 numbers in the sequence. (As a hint, the 20th Fibonacci number is 6765.)
+            var fibNumbs = new List<int> {1, 1};
+
+            for (int i = 0; i < 18; i++) {
+                var currentIndex = fibNumbs.Count - 1;
+                var previousIndex = fibNumbs.Count - 2;
+                fibNumbs.Add(fibNumbs[currentIndex] + fibNumbs[previousIndex]);
+            }
+
+            Console.WriteLine($"The {fibNumbs.Count}'th fib numb is: {fibNumbs[fibNumbs.Count-1]}.");
+            foreach (var numb in fibNumbs){
+                Console.WriteLine(numb);
+            }
+            
+
+            
         }
     }
 }
